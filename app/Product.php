@@ -24,7 +24,7 @@ class Product extends Model
             return $featuredImage->url;
 
         //default
-        return '/images/products/defaul_product.png';
+        return '/images/defaul_product.png';
     }
 
     public function getCategoryNameAttribute(){
